@@ -1,0 +1,12 @@
+Please edit this file as your answer. You will then submit this file within the ECampus question.
+
+<assign> -> <id> = <expr>
+<id> -> A | B | C
+<expr> -> <expr> + <term>
+         | <term>
+<term> -> <term> * <unary>
+         | <unary>
+<unary> -> --<unary>
+         | <stmt>
+<stmt> -> ( <expr> )
+         | <id>
